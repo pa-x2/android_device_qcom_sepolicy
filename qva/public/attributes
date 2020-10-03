@@ -1,4 +1,4 @@
-# Copyright (c) 2019, The Linux Foundation. All rights reserved.
+# Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -25,10 +25,34 @@
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-attribute sigmahal;
-attribute sigmahal_server;
-attribute sigmahal_client;
+attribute vendor_sigmahal;
+attribute vendor_sigmahal_server;
+attribute vendor_sigmahal_client;
 
-attribute hal_spu;
-attribute hal_spu_client;
-attribute hal_spu_server;
+attribute vendor_qccsyshal;
+attribute vendor_qccsyshal_server;
+attribute vendor_qccsyshal_client;
+
+attribute vendor_hal_spu;
+attribute vendor_hal_spu_client;
+attribute vendor_hal_spu_server;
+
+attribute vendor_hal_qspmhal;
+attribute vendor_hal_qspmhal_client;
+attribute vendor_hal_qspmhal_server;
+
+attribute vendor_hal_btconfigstore;
+attribute vendor_hal_btconfigstore_client;
+attribute vendor_hal_btconfigstore_server;
+
+attribute vendor_hal_fm;
+attribute vendor_hal_fm_client;
+attribute vendor_hal_fm_server;
+
+attribute vendor_hal_qteeconnector;
+attribute vendor_hal_qteeconnector_client;
+attribute vendor_hal_qteeconnector_server;
+
+attribute vendor_hal_eid;
+attribute vendor_hal_eid_client;
+attribute vendor_hal_eid_server;
